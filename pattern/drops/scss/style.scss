@@ -1,0 +1,47 @@
+$bgcolor: #F0DFD0;
+$transparent: rgba(255, 255, 255, 0);
+
+$color-1: #C7C5A7;
+$color-2: #8BA88F;
+
+$size: 3em;
+$big-size: $size*2;
+$min: $size*.3;
+$max: $size*.5;
+
+HTML {
+  height: 100%;
+  }
+BODY {
+  background: 
+    linear-gradient(68deg,
+      $color-1 $min,
+      $transparent $min*1.1
+    ) $size -#{$size},
+    linear-gradient(-68deg,
+      $color-1 $min,
+      $transparent $min*1.1
+    ) -#{$size} -#{$size},
+    radial-gradient(circle,
+      $color-1 $min,
+      $transparent $min*1.1
+      ) 0 0,
+    
+    linear-gradient(68deg,
+      $color-2 $min,
+      $transparent $min*1.1
+    ) 0 0,
+    linear-gradient(-68deg,
+      $color-2 $min,
+      $transparent $min*1.1
+    ) 0 0,
+    radial-gradient(circle,
+      $color-2 $min,
+      $transparent $min*1.1
+      ) $size $size
+    ;
+  background-size:  $big-size $big-size;
+  background-color: $bgcolor;
+  background-repeat: repeat;
+  font: 14px/2 'Trebuchet MS', Verdana, sans-serif;
+  }
