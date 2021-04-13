@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'charlie';
+  src: url("Charlie .ttf");
+}
+
+body{
+  text-align: center;
+  color: #fab95b;
+  font-weight: 400;
+  font-family: 'Ballet', cursive;
+}
+
+.left{
+  display: none;
+}
+
+.right{
+  display: none;
+}
+
+.page-0{
+  width: 100%;
+  border-radius: 30px;
+  background-color: #301b3f;
+  text-align: center;
+}
+
+.logo{
+  margin: auto;
+  width: 50%;
+  position: relative;
+}
+
+.round-frame{
+  width: 60%;
+  position: relative;
+  bottom: 33%;
+  display: none;
+}
+
+.left-corner{
+  height: 35%;
+  width: 60%;
+  position: relative;
+  right: 20%;
+}
+
+.right-corner{
+  height: 35%;
+  width: 60%;
+  text-align: right;
+  position: relative;
+  left: 20%;
+  top: 1%
+}
+
+.page-1{
+  height: 600px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #301b3f;
+  font: 14px/2 'Trebuchet MS', Verdana, sans-serif;
+  margin: 20px auto 0;
+}
+
+.background{
+  height: 595px;
+  width: 100%;
+}
+
+.content{
+  height: 500px;
+  width: 100%;
+  position: relative;
+  bottom: 550px;
+  font-family: 'Economica', sans-serif;
+}
+
+.ganeshji{
+  padding: 20px 20px 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.with{
+  margin: 0;
+}
+
+.together{
+
+  margin: 0;
+}
+
+.name{
+  font-family: 'charlie';
+  margin: 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.and{
+  font-weight: 700;
+  margin: 0;
+}
+
+.invites{
+  margin: 0;
+}
+
+hr{
+  background-color: #f0ae2c;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  width: 40%;
+  opacity: 0.5;
+}
+
+.dates{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.time{
+  margin: 0;
+  font-size: 15px;
+}
+
+.address{
+  margin: 0;
+  font-weight: 900;
+}
+
+.credit{
+  background-color: white;
+  width: 100%;
+  font-size: 8px;
+  font-family: arial;
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1440px) {
+  .left{
+    display: block;
+    position: fixed;
+    margin: 250px 0 0 0;
+  }
+
+  .groom{
+    height: 400px;
+    width: 400px;
+  }
+
+  .right{
+    display: block;
+    position: fixed;
+    margin: 290px 0 0 1120px;
+  }
+
+  .bride{
+    height: 400px;
+    width: 400px;
+  }
+
+  .page-0{
+    height: 595px;
+    width: 700px;
+    border-radius: 5%;
+    margin: 20px auto 20px;
+  }
+
+  .left-corner{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 120px;
+  }
+
+  .logo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 150px;
+    right: 120px;
+  }
+
+  .round-frame{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 80px;
+    left: 135px;
+  }
+
+  .right-corner{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 220px;
+    top: 90px;
+  }
+
+  .page-1{
+    height: 595px;
+    width: 700px;
+    border-radius: 5%;
+    margin: 20px auto 20px;
+  }
+
+  .content{
+    height: 800px;
+    width: 500px;
+    margin: auto;
+  }
+
+  .right-border{
+    position: relative;
+    left: 100px;
+  }
+
+  .left-border{
+    position: relative;
+    right: 100px;
+    bottom: 416px;
+  }
+
+  .wedding-info{
+    padding-top: 200px;
+  }
+}
